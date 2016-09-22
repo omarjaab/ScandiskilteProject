@@ -89,18 +89,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="avatar.jpg" />
+    <Content Include="bg.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\main.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\fulls\01.jpg" />
+    <Content Include="Images\fulls\02.jpg" />
+    <Content Include="Images\fulls\03.jpg" />
+    <Content Include="Images\fulls\04.jpg" />
+    <Content Include="Images\fulls\05.jpg" />
+    <Content Include="Images\fulls\06.jpg" />
+    <Content Include="Images\fulls\07.jpg" />
+    <Content Include="Images\thumbs\01.jpg" />
+    <Content Include="Images\thumbs\02.jpg" />
+    <Content Include="Images\thumbs\03.jpg" />
+    <Content Include="Images\thumbs\04.jpg" />
+    <Content Include="Images\thumbs\05.jpg" />
+    <Content Include="Images\thumbs\06.jpg" />
+    <Content Include="Images\thumbs\07.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Default\Gallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -130,6 +151,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Gallery\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

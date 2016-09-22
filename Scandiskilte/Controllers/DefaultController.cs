@@ -13,5 +13,10 @@ namespace Scandiskilte.Controllers
         {
             return View();
         }
+        //get 
+        public ActionResult Gallery()
+        {
+            return View();
+        }
     }
 }
